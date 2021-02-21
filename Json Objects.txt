@@ -1,0 +1,44 @@
+ACCOUNT CREATE
+
+{
+    "aadharNumber" : "23376021325",
+    "customerName" : "Akash",
+    "userName" : "Akki",
+    "contactNumber" : "1313214132",
+    "panNumber" : "564",
+    "dateOfBirth" : "10/02/2020",
+    "gender" : "M",
+    "address" : Vasundhara",
+    "account" : 
+    {
+            "accountId" : "234",
+            "branch" : "Noida",
+            "accountType" : "Savings",
+            "amount" : "10000"
+    }
+}
+
+DEBIT/CREDIT USING SLIP
+
+{
+    "transactionType" : "Slip",
+    "accountNo" : "123",
+    "amount" : "5000"
+}
+
+DEBIT/CREDIT USING CHEQUE
+
+{
+    "transactionType" : "Cheque",
+    "chequeNo" : "98765",
+    "payeeAccountNo" : "123",
+    "recipientAccountNo" : "234",
+    "amount" : "2000",
+    "bankName" : "Axis Bank",
+    "ifsc" : "a676bd",
+    "issueDate" : "2020-02-10" 
+}
+
+@CrossOrigin("http://localhost:4200")
+@CrossOrigin("http://localhost:4200")
+
